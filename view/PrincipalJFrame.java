@@ -58,7 +58,7 @@ public class PrincipalJFrame extends JFrame {
 
 		// lblTo
 		lblTo = new JLabel("To:");
-		lblTo.setBounds(x, 107, 80, 21);
+		lblTo.setBounds(x, 100, 80, 21);
 		lblTo.setFont(font);
 		contentPane.add(lblTo);
 
@@ -71,7 +71,7 @@ public class PrincipalJFrame extends JFrame {
 		// lblSubject
 		lblSubject = new JLabel("Subject:");
 		lblSubject.setFont(font);
-		lblSubject.setBounds(x, 188, 80, 21);
+		lblSubject.setBounds(x, 180, 80, 21);
 		contentPane.add(lblSubject);
 
 		// tfdSubject
@@ -83,7 +83,7 @@ public class PrincipalJFrame extends JFrame {
 		// lblBody
 		lblBody = new JLabel("Body:");
 		lblBody.setFont(font);
-		lblBody.setBounds(40, 270, 80, 21);
+		lblBody.setBounds(40, 260, 80, 21);
 		contentPane.add(lblBody);
 
 		// taBody
@@ -92,6 +92,7 @@ public class PrincipalJFrame extends JFrame {
 		taBody.setFont(font2);
 		taBody.setLineWrap(true);
 		taBody.setWrapStyleWord(true);
+		taBody.setBorder(tfdTo.getBorder());
 		contentPane.add(taBody);
 
 		// btnSubmit
