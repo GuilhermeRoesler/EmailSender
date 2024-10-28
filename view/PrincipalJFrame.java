@@ -90,6 +90,8 @@ public class PrincipalJFrame extends JFrame {
 		taBody = new JTextArea();
 		taBody.setBounds(x, lblBody.getY() + separadorY, tfdWidth, 254);
 		taBody.setFont(font2);
+		taBody.setLineWrap(true);
+		taBody.setWrapStyleWord(true);
 		contentPane.add(taBody);
 
 		// btnSubmit
