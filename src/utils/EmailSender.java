@@ -14,8 +14,8 @@ public class EmailSender {
 
 	public static void sendEmail(String to, String subject, String messageBody) throws Exception {
 		// credenciais do remetente
-		String user = "guiroesler2@gmail.com";
-		String password = "mcjy sblw ggbh shjo";
+		String user = "youremail@gmail.com";
+		String password = "yourEmailPassword";
 
 		// Properties para armazenar configurações SMTP
 		Properties properties = new Properties();
